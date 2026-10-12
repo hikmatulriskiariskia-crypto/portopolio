@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kiaa | Portofolio</title>
+  <meta name="description" content="Portofolio Hikmatul Rizkia, mahasiswa Informatika Universitas Muhammadiyah Maumere.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <a href="#hero" class="logo">Kiaa</a>
+    <nav id="menu" class="menu">
+      <a href="#tentang">Tentang</a>
+      <a href="#skill">Skill</a>
+      <a href="#motivasi">Motivasi</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <div class="aksi">
+      <button id="tema" class="ikon" aria-label="Ganti tema">🌙</button>
+      <button id="hamburger" class="ikon burger" aria-label="Buka menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="hero" class="hero">
+      <div class="hero-teks">
+        <p class="sapa">Halo, saya</p>
+        <h1 id="nama">Hikmatul Rizkia</h1>
+        <p class="peran"><span id="mengetik"></span><span class="kursor">|</span></p>
+        <p class="ringkas">Mahasiswa Informatika di Universitas Muhammadiyah Maumere yang suka bermain musik dan memasak.</p>
+        <div class="tombol-grup">
+          <a href="#tentang" class="tombol">Kenal lebih dekat</a>
+          <a href="#kontak" class="tombol kosong">Hubungi saya</a>
+        </div>
+      </div>
+      <div class="foto-wrap">
+        <span id="inisial" class="inisial">K</span>
+        <img src="foto.jpg" alt="Foto Hikmatul Rizkia" class="foto" onerror="this.style.display='none'">
+      </div>
+    </section>
+
+    <section id="tentang" class="bagian muncul">
+      <h2>Tentang saya</h2>
+      <div class="dua-kolom">
+        <p>Saya Hikmatul Rizkia, biasa dipanggil Kiaa. Saya mahasiswa jurusan Informatika di Universitas Muhammadiyah Maumere.</p>
+        <p>Di luar kuliah, saya suka bermain musik dan memasak.</p>
+      </div>
+      <ul class="info">
+        <li><strong>Nama lengkap</strong> Hikmatul Rizkia</li>
+        <li><strong>Panggilan</strong> Kiaa</li>
+        <li><strong>NIM</strong> 20250202010</li>
+        <li><strong>Jurusan</strong> Informatika</li>
+        <li><strong>Kampus</strong> Universitas Muhammadiyah Maumere</li>
+        <li><strong>Alamat</strong> Jl. Nairoa, Desa Watumilok, Kec. Kangae</li>
+      </ul>
+    </section>
+
+    <section id="skill" class="bagian muncul">
+      <h2>Skill</h2>
+      <div class="skill-list">
+        <div class="skill">
+          <div class="skill-judul"><span>Bermain musik</span><span>100%</span></div>
+          <div class="bar"><div class="isi" data-level="100"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-judul"><span>Memasak</span><span>100%</span></div>
+          <div class="bar"><div class="isi" data-level="100"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="motivasi" class="bagian muncul">
+      <h2>Motivasi</h2>
+      <blockquote class="kutipan">
+        Gagal bukan akhir, hanya cara hidup mengatakan “coba dengan cara lain”. Orang yang berhenti belajar, bukan orang yang gagal, yang benar-benar tertinggal.
+      </blockquote>
+    </section>
+
+    <section id="kontak" class="bagian muncul">
+      <h2>Kontak</h2>
+      <p class="pengantar">Ingin berkenalan atau bekerja sama? Hubungi saya lewat:</p>
+      <div class="kontak-list">
+        <a href="https://wa.me/6282139030751" target="_blank" rel="noopener">WhatsApp: 082139030751</a>
+        <a href="mailto:Hikmatulriskiariskia@gmail.com">Hikmatulriskiariskia@gmail.com</a>
+        <a href="https://instagram.com/akiarsadaisy" target="_blank" rel="noopener">Instagram: @akiarsadaisy</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © <span id="tahun"></span> Hikmatul Rizkia. Dibuat dengan HTML, CSS, dan JavaScript.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
